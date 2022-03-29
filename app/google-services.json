@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893839900544",
+    "project_id": "togetherhealth-4d281",
+    "storage_bucket": "togetherhealth-4d281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893839900544:android:4db4566ddb6aa8e6134b65",
+        "android_client_info": {
+          "package_name": "com.example.togetherhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893839900544-c677o6osa7meiesmdo4cpj9qgbc0nanj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr9YDHeqy0Lxo1mgT2btdHaz3NwajzMX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893839900544-c677o6osa7meiesmdo4cpj9qgbc0nanj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

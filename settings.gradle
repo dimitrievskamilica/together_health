@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    //repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "TogetherHealth"
+include ':app'
