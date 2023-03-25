@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue1"
+    tools:context=".AddActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="426dp"
+        android:layout_height="42dp"
+        android:background="#901A98DC"
+        android:paddingLeft="20dp"
+        android:text="Activity of the day"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/activity_name"
+        android:layout_width="230dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:hint="Activity"
+        android:textColor="@android:color/black"
+        android:textColorHint="#B2144AA8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp"
+        android:hint="Duration in min"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#B2144AA8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/activity_name" />
+
+    <EditText
+        android:id="@+id/sets"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:hint="Sets"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#B2144AA8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/duration" />
+
+    <EditText
+        android:id="@+id/achievment"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:hint="Achievment"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#B2144AA8"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/sets" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/buttonn"
+        android:onClick="addPhysicalActivity"
+        android:text="Add"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/achievment" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="28dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonn"
+        android:onClick="backPhysicalActivity"
+        android:text="Back"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
