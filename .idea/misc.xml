@@ -3,10 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/TogetherHealth/app/src/main/res/layout/activity_home.xml" value="0.4" />
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/TogetherHealth/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/TogetherHealth/app/src/main/res/layout/activity_register.xml" value="0.264" />
-        <entry key="..\:/Users/Korisnik/AndroidStudioProjects/TogetherHealth/app/src/main/res/layout/activity_sing_in.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_add.xml" value="0.1" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_add_competition2.xml" value="0.13677536231884058" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_competitions.xml" value="0.259375" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_invite_people.xml" value="0.259375" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_msg_box.xml" value="0.10891590678824721" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_physical_page.xml" value="0.264" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/card_view.xml" value="0.12001811594202899" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/card_view_all_people.xml" value="0.12001811594202899" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/card_view_competition.xml" value="0.4" />
+        <entry key="..\:/Users/Korisnik/Downloads/TogetherHealth (2)/TogetherHealth/app/src/main/res/layout/card_view_msg.xml" value="0.10891590678824721" />
       </map>
     </option>
   </component>

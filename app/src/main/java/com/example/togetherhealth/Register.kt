@@ -23,19 +23,19 @@ class Register : AppCompatActivity() ,OnCompleteListener<AuthResult> {
 
         firebaseFirestore = FirebaseFirestore.getInstance()
         ref = firebaseFirestore!!.collection("users").document()
-        btn_reg.setOnClickListener {
-            if (reg_name.getText().toString() == "") {
+        btn_add.setOnClickListener {
+            if (txt_name.getText().toString() == "") {
                 Toast.makeText(this@Register, "Please type a username", Toast.LENGTH_SHORT).show()
-            } else if (reg_email.getText().toString() == "") {
+            } else if (email.getText().toString() == "") {
                 Toast.makeText(this@Register, "Please type an email", Toast.LENGTH_SHORT).show()
-            } else if (reg_password.getText().toString() == "") {
+            } else if (pwd.getText().toString() == "") {
                 Toast.makeText(this@Register, "Please type a password", Toast.LENGTH_SHORT).show()
-            } else if (reg_conpwd.getText().toString() != reg_password.getText().toString()) {
+            } else if (confirmPass.getText().toString() != pwd.getText().toString()) {
                 Toast.makeText(this@Register, "Password mismatch", Toast.LENGTH_SHORT).show()
             } else {
                 auth.createUserWithEmailAndPassword(
-                    reg_email.text.toString(),
-                    reg_password.text.toString(),
+                    email.text.toString(),
+                    pwd.text.toString(),
 
                     ).addOnCompleteListener(this)
             }
@@ -56,9 +56,9 @@ class Register : AppCompatActivity() ,OnCompleteListener<AuthResult> {
                     } else {
                         val reg_entry: MutableMap<String, Any> =
                             HashMap()
-                        reg_entry["Name"] = reg_name.getText().toString()
-                        reg_entry["Email"] = reg_email.getText().toString()
-                        reg_entry["Password"] = reg_password.getText().toString()
+                        reg_entry["Name"] = txt_name.getText().toString()
+                        reg_entry["Email"] = email.getText().toString()
+                        reg_entry["Password"] = pwd.getText().toString()
 
                         firebaseFirestore!!.collection("users")
                             .add(reg_entry)
@@ -84,6 +84,10 @@ class Register : AppCompatActivity() ,OnCompleteListener<AuthResult> {
                 Toast.makeText(baseContext, "Authentication failed.", Toast.LENGTH_SHORT).show()
         }
 
+    }
+
+    fun backButton(view: android.view.View) {
+        finish()
     }
 
 }
